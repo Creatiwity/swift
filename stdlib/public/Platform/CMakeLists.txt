@@ -3,6 +3,7 @@ set(swift_platform_flags)
 set(swift_platform_sources
     Platform.swift
     Misc.c
+    ifaddrs.c
     TiocConstants.swift
     tgmath.swift.gyb)
 
